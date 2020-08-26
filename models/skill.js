@@ -23,7 +23,7 @@ function getAll() {
 }
 
 function create(skillin) {
-  skill.id = Date.now() % 10000000;
+  skills.id = Date.now() % 10000000;
   skills.have = false;
   skills.push(skill);
 }
